@@ -5,7 +5,7 @@ import string
 
 # This view handles both GET and POST requests from the browser
 def index(request):
-    password = ''  # Default empty password
+    password = ''  # Default empty password to display in the template
 
     if request.method == 'POST':
         # The user submitted the form — Django captures the data in request.POST
